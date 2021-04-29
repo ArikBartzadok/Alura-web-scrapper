@@ -1,0 +1,30 @@
+{
+  "name": "alura-web-scrapper",
+  "version": "1.0.0",
+  "description": "A simple robot capable of obtaining data from Alura's home page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArikBartzadok/Alura-web-scrapper.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "express",
+    "node",
+    "alura"
+  ],
+  "author": "ArikBartzadok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArikBartzadok/Alura-web-scrapper/issues"
+  },
+  "homepage": "https://github.com/ArikBartzadok/Alura-web-scrapper#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^9.0.0"
+  }
+}
